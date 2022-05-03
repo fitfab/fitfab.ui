@@ -1,6 +1,6 @@
-# Turborepo Design System starter
+# Fitfab UI
 
-This is an official React design system starter powered by Turborepo.
+This is based on the official React design system starter powered by Turborepo.
 
 ## What's inside?
 
@@ -9,10 +9,10 @@ This Turborepo includes the following packages and apps:
 ### Apps and Packages
 
 - `docs`: A placeholder documentation site powered by [Next.js](https://nextjs.org)
-- `@acme/core`: core React components
-- `@acme/utils`: shared React utilities
-- `@acme/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
-- `eslint-preset-acme`: ESLint preset
+- `@fitfab/core`: core React components
+- `@fitfab/utils`: shared React utilities
+- `@fitfab/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
+- `eslint-preset-fitfab`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -60,3 +60,7 @@ To publish packages to a private npm organization scope, **remove** the followin
 #### GitHub Package Registry
 
 See [Working with the npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-a-package-using-publishconfig-in-the-packagejson-file)
+
+### Tailwind CSS setup
+
+These are the steps to [setup Tailwind](./TAILWIND_SETUP.md) CSS.
